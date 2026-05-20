@@ -1,0 +1,6 @@
+@Onivo.Api_HostAddress = http://localhost:5208
+
+GET {{Onivo.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

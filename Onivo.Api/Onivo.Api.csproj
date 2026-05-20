@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Onivo.Application\Onivo.Application.csproj" />
+    <ProjectReference Include="..\Onivo.Infrastructure\Onivo.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="EndPoints\" />
+    <Folder Include="Middlewares\" />
+    <Folder Include="Filters\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Contracts\" />
+    <Folder Include="Models\" />
+    <Folder Include="Configurations\" />
+  </ItemGroup>
+
+</Project>

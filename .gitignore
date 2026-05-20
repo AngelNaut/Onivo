@@ -1,0 +1,149 @@
+
+---
+
+## `.gitignore`
+
+```gitignore
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Visual Studio files
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.assets.json
+.nuget/
+NuGet.Config
+
+# Logs
+*.log
+logs/
+
+# Test results
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+coverage.cobertura.xml
+coverage.opencover.xml
+
+# Code coverage tools
+.coverage/
+.coverlet/
+lcov.info
+
+# ASP.NET / .NET user secrets
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Publish output
+publish/
+Published/
+*.Publish.xml
+*.pubxml
+*.pubxml.user
+
+# IIS Express
+.vs/config/applicationhost.config
+applicationhost.config
+
+# SQL Server / Database
+*.mdf
+*.ldf
+*.ndf
+*.db
+*.sqlite
+*.sqlite3
+
+# Entity Framework migrations bundles
+efbundle.exe
+efbundle
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.cache
+
+# Node files, in case the project later includes frontend assets
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+
+# Docker override files with local configuration
+docker-compose.override.yml
+
+# Certificates and keys
+*.pfx
+*.p12
+*.pem
+*.key
+*.crt
+
+# Local database or storage files
+App_Data/
+wwwroot/uploads/
+wwwroot/files/

@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Onivo.Api/Onivo.Api.csproj" />
+  <Project Path="Onivo.Application/Onivo.Application.csproj" />
+  <Project Path="Onivo.Domain/Onivo.Domain.csproj" />
+  <Project Path="Onivo.Infrastructure/Onivo.Infrastructure.csproj" />
+</Solution>
