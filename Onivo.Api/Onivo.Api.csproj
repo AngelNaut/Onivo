@@ -15,14 +15,4 @@
     <ProjectReference Include="..\Onivo.Infrastructure\Onivo.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="EndPoints\" />
-    <Folder Include="Middlewares\" />
-    <Folder Include="Filters\" />
-    <Folder Include="Extensions\" />
-    <Folder Include="Contracts\" />
-    <Folder Include="Models\" />
-    <Folder Include="Configurations\" />
-  </ItemGroup>
-
 </Project>

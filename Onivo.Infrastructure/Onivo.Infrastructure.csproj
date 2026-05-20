@@ -11,15 +11,4 @@
     <ProjectReference Include="..\Onivo.Domain\Onivo.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Identity\" />
-    <Folder Include="ExternalServices\" />
-    <Folder Include="Files\" />
-    <Folder Include="Email\" />
-    <Folder Include="Configurations\" />
-    <Folder Include="Services\" />
-    <Folder Include="Repositories\" />
-    <Folder Include="Persistence\" />
-  </ItemGroup>
-
 </Project>
